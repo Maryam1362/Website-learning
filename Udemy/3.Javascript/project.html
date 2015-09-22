@@ -1,0 +1,58 @@
+<!doctype html>
+
+<head>
+    <title>Learning JavaScript</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <Style type="text/css">
+
+    body{
+        font-family:Verdana, Geneva, sans-serif;
+    }
+    #box{
+        background-color: red;
+        height: 200px;
+        width: 200px;
+        display:none;
+        position:relative;
+    }
+    #Circle{
+        background-color: red;
+        height: 200px;
+        width: 200px;
+        display:none;
+        border-radius: 200px;
+        position:relative;
+    }
+    .bold{
+        font-weight: bold;
+    }
+    #Triangle{
+        width:0;
+        height:0;
+        border-left: 200px solid transparent;
+        border-right: 200px solid transparent;
+        border-bottom:200px solid transparent;
+        position: relative;
+    }
+
+
+    </Style>
+
+</head>
+
+<body>
+<h1>Test your reaction</h1>
+<p> Click on the boxes and circles as quickly as you can!</p>
+<p class="bold" >Your time:<span id="time">0</span>S</p>
+<div id="box"></div>
+<div id="Circle"></div>
+<div id="Triangle"></div>
+
+<script type="text/javascript" src="project.js"></script>
+
+
+</body>
+</html>

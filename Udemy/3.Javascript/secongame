@@ -1,0 +1,32 @@
+<head>
+    <title>Learning JavaScript</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+</head>
+
+<body>
+<p> guess what is Maryam's number, Type a number between 0 to 10</p>
+<input id="mynumber"/>
+<button id="guess">Guess</button>
+
+<script type="text/javascript">
+ 
+    x=Math.random();
+    x=Math.floor(x*10);
+    while(x!=document.getElementById("mynumber").value){
+        x=Math.random();
+        x=Math.floor(x*10);
+        alert("I will guess another number, my selected number is " + x);
+    }
+    alert("your number is " + x);
+
+
+
+</script>
+
+
+</body>
+</html>

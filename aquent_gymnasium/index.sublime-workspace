@@ -1,0 +1,307 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"error",
+				"errorMessage"
+			],
+			[
+				"margin-",
+				"margin-left"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"borde",
+				"border-radius"
+			],
+			[
+				"reaction",
+				"reactionTime"
+			],
+			[
+				"Tr",
+				"transparent"
+			],
+			[
+				"div",
+				"divId"
+			],
+			[
+				"first",
+				"firstDiv"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"on",
+				"onclick	Attr"
+			],
+			[
+				"at",
+				"auto"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"padding",
+				"padding-right"
+			],
+			[
+				"BACK",
+				"background-color"
+			],
+			[
+				"Ba",
+				"background-color"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"p",
+				"position"
+			],
+			[
+				"bol",
+				"bold"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Maryam/Desktop/My webswites/Dash-GA/projectapplication2.html",
+		"/C/Users/Maryam/Desktop/My webswites/3.Javascript/forloop.html",
+		"/C/Users/Maryam/Desktop/My webswites/4.Jquery/miniproject.html",
+		"/C/Users/Maryam/Desktop/My webswites/Dash-GA/dash2.html",
+		"/C/Users/Maryam/Desktop/My webswites/1.HTML/index.html",
+		"/C/Users/Maryam/Desktop/My webswites/2.CSS/style.css",
+		"/C/Users/Maryam/Desktop/My webswites/2.CSS/newbbc.html",
+		"/C/Users/Maryam/Desktop/My webswites/Dash-GA/projectapplication.html",
+		"/C/Users/Maryam/Desktop/My webswites/Dash-GA/test2.html",
+		"/C/Users/Maryam/Desktop/My webswites/Dash-GA/secondproject.html",
+		"/C/Users/Maryam/Desktop/My webswites/1.HTML/Project1.html",
+		"/C/Users/Maryam/Desktop/My webswites/Dash-GA/dash1.html",
+		"/C/Users/Maryam/Desktop/My webswites/Dash-GA/test.html",
+		"/C/Users/Maryam/Desktop/My webswites/Dash-GA/my first project.html",
+		"/C/Users/Maryam/Desktop/My webswites/4.Jquery/index.html",
+		"/C/Users/Maryam/Desktop/My webswites/Dash-GA/dash-1.html.txt",
+		"/C/Users/Maryam/AppData/Local/Temp/1-test.html",
+		"/C/Users/Maryam/AppData/Local/Temp/10-index.html",
+		"/C/Users/Maryam/AppData/Local/Temp/11-index.html",
+		"/C/Users/Maryam/Desktop/My webswites/3.Javascript/index.html",
+		"/C/Users/Maryam/Desktop/My webswites/3.Javascript/project.html",
+		"/C/Users/Maryam/AppData/Local/Temp/14-index.html",
+		"/C/Users/Maryam/AppData/Local/Temp/index-2.html",
+		"/C/Users/Maryam/AppData/Local/Temp/13-index.html",
+		"/C/Users/Maryam/AppData/Local/Temp/12-index.html",
+		"/C/Users/Maryam/Desktop/My webswites/3.Javascript/project.js",
+		"/C/Users/Maryam/Desktop/My webswites/3.Javascript/array.html",
+		"/C/Users/Maryam/Desktop/mytestcase1.html",
+		"/C/Users/Maryam/Desktop/My webswites/3.Javascript/firstchalange.html",
+		"/C/Users/Maryam/Desktop/My webswites/3.Javascript/secondgame.html",
+		"/C/Users/Maryam/Desktop/My webswites/2.CSS/index.html",
+		"/C/Users/Maryam/Desktop/My webswites/3.Javascript/guess my food.html",
+		"/C/Users/Maryam/Desktop/My webswites/3.Javascript/howmanyfingersgame.html",
+		"/C/Users/Maryam/Desktop/My webswites/3.Javascript/ifstatment.html",
+		"/C/Users/Maryam/Desktop/meetup/my-project/index.html",
+		"/C/Users/Maryam/Desktop/My webswites/2.CSS/mybbc.html",
+		"/C/Users/Maryam/Desktop/Tutorial 1-HTML/index.html",
+		"/C/Users/Maryam/Desktop/My webswites/2.CSS/style.s.css",
+		"/C/Users/Maryam/Desktop/My webswites/2.CSS/airvoztest.html",
+		"/C/Users/Maryam/Desktop/My webswites/1.HTML/index 2.html",
+		"/C/Users/Maryam/Desktop/My webswites/1.HTML/index3.html",
+		"/C/Users/Maryam/AppData/Local/Temp/index.html",
+		"/C/Users/Maryam/AppData/Local/Temp/index-1.html",
+		"/C/Users/Maryam/Desktop/My webswites/1.HTML/helloworld.html",
+		"/C/Users/Maryam/Desktop/index.html",
+		"/C/Users/Maryam/AppData/Local/Temp/9-index.html",
+		"/C/Users/Maryam/AppData/Local/Temp/home.html",
+		"/C/Users/Maryam/AppData/Local/Temp/8-index.html",
+		"/C/Users/Maryam/AppData/Local/Temp/7-index.html",
+		"/C/Users/Maryam/AppData/Local/Temp/6-index.html",
+		"/C/Users/Maryam/AppData/Local/Temp/5-index.html",
+		"/C/Users/Maryam/AppData/Local/Temp/4-index.html",
+		"/C/Users/Maryam/AppData/Local/Temp/3-index.html",
+		"/C/Users/Maryam/AppData/Local/Temp/2-index.html",
+		"/C/Users/Maryam/Desktop/airvoz.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"272px",
+			"570px",
+			"900px",
+			"/>\n",
+			"http",
+			"left",
+			"right",
+			"/>\n",
+			";\n",
+			"}\n",
+			"break",
+			";\n",
+			"left"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 35.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

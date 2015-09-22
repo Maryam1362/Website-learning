@@ -1,0 +1,106 @@
+
+    body {
+      text-align: justify;
+      background-color:#989898;
+      color:#222222;
+      font-family: helvetica;
+    }
+    
+    .new{
+      width: 1300px;
+      height: 1100px;
+      margin:0 auto;
+      border:5px solid #808080;
+      border-radius:10px;            
+      background:url("http://nidelvenskole.no/wp-content/uploads/2014/02/bakgrund2.jpg");
+      background-size:cover;
+      background-position:center;
+    }
+     
+    .mypic{
+      width:340px;
+      height:330px;
+      margin:43px;
+      float:right;
+      border-radius: 10px;
+      border: 3px solid #575757;
+    }
+    
+    article{
+      padding:20px;
+      margin:0 auto;
+      font-size:20px;
+    }
+    h3{
+      text-align: center;
+      font-family: 'Merriweather', serif;
+      color:rgb(64,64,64);
+      font-size:30px;
+    }
+    .smiley{
+      width:20px;
+    }
+    .link{
+      color:black;
+      font-size:22px;
+      font-family: 'Lora', serif;
+    }
+    h4{
+      text-align: center;
+      font-family: 'Merriweather', serif;
+      color:rgb(21, 82, 103);
+      font-size:23px;
+    }
+    .contact{
+      text-align: center;
+      margin:0 auto;
+      line-height: 28px; 
+    }
+
+    li{
+      list-style: none;
+    }
+    .info{
+      height: 22px;
+      border-radius: 3px;
+      margin-top:-10px;
+      
+    }
+    .email{
+      width:15px;
+      margin:1px 2px 0 0;
+    }
+    .contactLink{
+      color:black;
+      text-decoration: none
+    }
+    .phone{
+      width:13px;
+      margin:1px 2px 0 0;
+    }
+    .phoneLine{
+      line-height:10px;
+    }
+  @media (max-width: 600px){
+      .new{
+        font-size:19px;
+        height:1620px;
+        width:500px;
+        text-align: justify;
+      }
+      h3{
+        font-size:20px;
+      } 
+      h4{
+        font-size: 20px;
+      }
+      .mypic{
+        width:200px;
+        height: 200px;
+      }
+      .link{
+        font-size: 19px;
+      }
+      
+    }
+  

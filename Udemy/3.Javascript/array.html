@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+    <title>Learning JavaScript</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+</head>
+
+<body>
+
+<button id="styleChanger"> change the text
+</button>
+<div id="firstDiv">This is some text</div>
+
+<script type="text/javascript">
+
+    var myarray=new Array();
+    myarray[0]="pizza";
+    myarray[1]="chocolate";
+    
+    myotherarray=["test","test2","test3"];
+    myotherarray.push("test2332");
+    myotherarray.splice(1,2);
+    console.log(myotherarray);
+    document.getElementById("styleChanger").onclick=function(){
+    	
+    	document.getElementById("firstDiv").innerHTML=myotherarray[1];
+}
+
+</script>
+
+
+</body>
+</html>

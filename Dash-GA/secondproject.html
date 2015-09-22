@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<head>
+ <Title>Mary's Blog</Title>
+ <link href="/normalize.css" rel="stylesheet">
+ <Style>
+ 
+ #top{
+ background:#909090;
+ height:350px;
+ margin:5px 5px 0px 5px;
+ }
+ #menu{
+ margin:0 auto;
+ background:#C8C8C8;
+ padding:10px;
+ text-align: center;
+ margin: 0px 5px;
+ 
+ }
+ a{
+ color:black;
+ }
+ li{
+ display: inline;
+ padding: 0px 30px 0px 30px;
+ }
+ .pic{
+ width:200px;
+ height:200px;
+ }
+ #location1{
+ margin-left:120px;
+ margin-top:50px;
+ }
+ #location2{
+ margin-top:-150px;
+ margin-left:350px;
+ }
+ #location3{
+ margin-left:580;
+ margin-top:-250px;
+ }
+ #location4{
+ margin-left:810;
+ margin-top:-150;
+ }
+ #location5{
+ margin-left:1040;
+ margin-top:-250;
+ }
+ #recipe{
+ display:block;
+ }
+ article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+      
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+    body{
+    background:#A8A8A8;
+    }
+    #direction{
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+      }
+    
+ </Style>
+</head>
+<body>
+  <header>
+  
+  <div id="top">
+  
+    <img class="pic" id="location1" src="http://cdn2-www.webecoist.momtastic.com/assets/uploads/2013/03/Detox-Foods-Main.jpg"/>
+    <div id="location2">
+      <img class="pic"  src="http://cdn-image.myrecipes.com/sites/default/files/styles/300x300/public/image/recipes/ck/08/04/quinoa-salad-ck-1723399-x.jpg?itok=sz-dFt83"/>
+    </div>
+    <div id="location3">
+      <img class="pic" src="http://www.washingtonian.com/blogs/wellbeing/images/smoothie_1.jpg"/>
+    </div>
+    <div id="location4">
+      <img class="pic" src="http://uncooking101.com/wp-content/uploads/2011/06/chopped-salad.jpg">
+    </div>
+    <div id="location5">
+    <img class="pic" src="http://southernbite.com/wp-content/uploads/2012/05/SouthernBiteFruitSalad-2.jpg">
+    </div>
+    </div>
+    <ul id="menu">
+      <li><a href="#">About Me</a></li>
+      <li><a href="#">Salad Recipe</a></li>
+      <li><a href="#">Smoothies Recipe</a></li>
+    </ul>
+  </header>
+  <article>
+  <h2>Salmon quinoa salad</h2>
+  <p>
+  
+  <ol>
+    <li id="recipe">1. (8-ounce) salmon fillet (such as wild Alaskan)</li>
+    <li id="recipe">2. 1 teaspoon salt</li>
+    <li id="recipe">3. 1</sup>&frasl;<sub>2</sub> teaspoon freshly ground black pepper</li>
+    <li id="recipe">4. 1 tablespoon extra-virgin olive oil</li>
+    <li id="recipe">5. 1<sup>1</sup>&frasl;<sub>2</sub> cooked quinoa (about 1/2 cup uncooked)</li>
+    <li id="recipe">6. 1</sup>&frasl;<sub>2</sub> cup chopped carrots</li>
+    <li id="recipe">7. 1</sup>&frasl;<sub>2</sub> chopped fresh basil leaves</li>
+    <li id="recipe">8. 1</sup>&frasl;<sub>4</sub> cup cooked corn</li>
+    <li id="recipe">9. 2 tablespoons avocado ranch sauce</li>
+  </ol>  
+<h3>Direction</h3>
+1. Sprinkle salmon evenly with 1/4 teaspoon salt and 1/8 teaspoon pepper. Heat a medium skillet over high heat. Add 1 tablespoon oil to pan. Reduce heat to medium-high; cook 4 minutes. Turn fillet; cook 2 minutes or until desired degree of doneness. Place fillet on a cutting board.Flake fillet with a fork into small chunks.
+</br>
+</br>
+
+2. Combine flaked salmon, remaining 3/4 teaspoon salt, remaining 3/8 teaspoon pepper, quinoa, and remaining ingredients in a large bowl; toss gently to combine.
+</p>
+<button class="like">Like</button>
+<button class="dislike">dislike</button>
+</article>
+<hr>
+<article>
+
+<h2> Banana Berry Tangerine Smoothie</h2>
+<p>
+<ol>
+  <li id="recipe">1.cup fresh blueberries and strawberries</li>
+  <li id="recipe">2. 1 fresh ripe banana</li>
+  <li id="recipe">3. 1</sup>&frasl;<sub>2</sub> cup pomegranate juice</li>
+  <li id="recipe">4. 3 tangerines<li>
+</o1>
+
+<h3>Direction</h3>
+Combine all ingredients together in a blender and puree until smooth.
+</p>
+<button class="like">Like</button>
+<button class="dislike">dislike</button>
+</article>
+
+<script>
+$(".like").on("click",function(){
+  alert("best article I liked it")
+});
+$(".dislike").on("click",function(){
+  alert("I did not like the article")
+});
+</script>
+
+</body>

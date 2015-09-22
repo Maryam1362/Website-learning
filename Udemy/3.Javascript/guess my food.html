@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+    <title>Learning JavaScript</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+</head>
+
+<body>
+<p>what is my favorite food?</p>
+<input id="answer"/> 
+<button id="myButton">Submit</button>
+
+<script type="text/javascript">
+    document.getElementById("myButton").onclick=function()
+        {
+
+        var array =new Array();
+        array=["pizza","chocolate","burger","eggplant stew"]
+        var x=Math.random();
+        x=Math.floor(x*4);
+        if(document.getElementById("answer").value==array[x]){
+            alert("you won the game my favorite food is "+ array[x]);
+        }
+        else{
+            alert("you lost the game my favorite food is "+ array[x]);
+        }
+
+}
+
+
+</script>
+
+
+</body>
+</html>

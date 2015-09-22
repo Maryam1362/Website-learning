@@ -1,0 +1,59 @@
+
+    body {
+      text-align: justify;
+      color:black;
+      background-color:#989898;
+      font-size:17px;
+      font-family: helvetica;
+    }
+    
+    .new{
+      width: 930px;
+      height: 950px;
+      margin:0 auto;
+      border:5px solid #808080;
+      border-radius:10px;
+      color:#202020;
+    }
+     
+    .mypic{
+      width:450px;
+      height:730px;
+      margin:33px;
+      float:right;
+      border-radius: 10px;
+    }
+    .contact{
+      text-align: center;
+      margin:0 auto;
+    }
+    .smiley{
+      width:20px;
+    }
+    a{
+      color:black;
+      font-style: italic;
+    }
+    article{
+      padding:20px;
+      margin:0 auto;
+    }
+    
+  @media (max-width: 600px){
+      .new{
+        font-size:15px;
+        height:790px;
+        width:550px;
+      }
+      h3{
+        font-size:18px;
+      } 
+      .mypic{
+        width:250px;
+        height: 250px;
+      }
+      .info{
+        width:200px;
+      }
+    }
+  
