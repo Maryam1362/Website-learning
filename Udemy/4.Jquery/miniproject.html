@@ -112,11 +112,11 @@ if(!isValidEmailAddress($("#validemail").val())){
 if(!$.isNumeric($("#phone").val())){
 	errorMessage=errorMessage+"<br/>Please enter a valid phone";
 }
-if($("#pass1").val() != $("#pass2").val()){
+if($("#pass1").val() !=== $("#pass2").val()){
     errorMessage=errorMessage+"<br/>please enter matching password";
 }
 
-if(errorMessage==""){
+if(errorMessage===""){
     alert("form has been submitted correctly");
 }
 else{
