@@ -4,7 +4,7 @@
 
 		myArrayOfObjects.forEach(function(d){
 
-			console.log(d.x + d.y);
+			console.log(d.x +" ,"+ d.y);
 		});
 	});
 
