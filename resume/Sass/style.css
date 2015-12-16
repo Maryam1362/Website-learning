@@ -1,0 +1,46 @@
+/*html, a img{
+  cursor: url(http://cur.cursors-4u.net/nature/images10/nat943.png), auto;
+}*/
+button {
+  margin: -250px 35% 0;
+  display: block; }
+
+body {
+  font-size: 20px; }
+  body h1 {
+    font-size: 23px;
+    margin: 0 auto; }
+  body img {
+    width: 70%;
+    height: 90%;
+    margin: 0 auto;
+    display: block; }
+
+.text {
+  background: url("../images/backGround.jpg"); }
+  .text p {
+    margin: 10px auto;
+    width: 80%;
+    font-size: 21px; }
+
+.pic {
+  background: #cccccc; }
+
+.mypic {
+  width: 60%;
+  height: 70%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 15px;
+  border: 3px solid grey; }
+
+.link {
+  font-weight: italic;
+  font-style: none; }
+
+.hidden {
+  display: none; }
+
+/*# sourceMappingURL=style.css.map */
+
+/*# sourceMappingURL=style.css.map */
