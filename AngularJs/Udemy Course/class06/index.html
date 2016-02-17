@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en-us" ng-app="myApp">
+    <head>
+        <title>Learn and Understand AngularJS</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta charset="UTF-8">
+
+        <!-- load bootstrap and fontawesome via CDN -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <style>
+            #wrapper {
+  padding-left: 50px;
+  transition: all 0.5s ease;
+}
+#wrapper.toggled {
+  padding-left: 250px;
+}
+
+#sidebar-wrapper {
+  z-index: 1000;
+  position: fixed;
+  left: -200px;
+  width: 250px;
+  height: 100%;
+  overflow-y: auto;
+  background: #000;
+  padding-top: 15px;
+  transition: all 0.5s ease;
+}
+#wrapper.toggled #sidebar-wrapper {
+  left: -250px;
+  margin-left: 250px;
+}
+
+#page-content-wrapper {
+  width: 100%;
+  padding: 15px;
+}
+#wrapper.toggled #page-content-wrapper {
+    position: absolute;
+    margin-right: -50px;
+}
+
+/* Sidebar Styles */
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+}
+.sidebar li.title {
+  letter-spacing: 0.01em;
+  font-size: 2rem;
+  line-height: 4.2rem;
+}
+.sidebar ul {
+  margin: 0;
+  padding-left: 20px;
+  list-style: none;
+}
+.sidebar ul li {
+  display: block;
+}
+.sidebar ul li a {
+  display: block;
+  position: relative;
+  text-decoration: none;
+  color: #999999;
+}
+.sidebar ul li a [class*="icon"] {
+  margin-right: 15px;
+}
+.sidebar ul li a#main-toggle:after,
+.sidebar ul li a.dropdown-toggle:after {
+  right: 20px;
+  bottom: 5px;
+}
+.sidebar .sidebar__main {
+    border-bottom: 1px solid #373737;
+}
+.sidebar .sidebar__toggled {
+  font-size: 2rem;
+  line-height: 3.4rem;
+}
+.sidebar ul li.title,
+.sidebar .sidebar__main--brand a {
+    color: #999999;
+}
+
+.dropdown-toggle {
+  padding-right: 20px;
+}
+#main-toggle:after,
+.dropdown-toggle:after {
+  font-family: 'Glyphicons Halflings';
+  font-size: .7em;
+  position: absolute;
+  margin-left: .25em;
+  bottom: 0;
+  content: "\e114";
+}
+
+.sidebar__toggled {
+  border-bottom: 1px solid #444;
+}
+#main-toggle:after {
+  font-size: 1em;
+  content: "\e055";
+}
+
+
+
+@media(min-width:768px) {
+    #wrapper {
+        padding-left: 250px;
+    }
+
+    #wrapper.toggled {
+        padding-left: 50px;
+    }
+
+    #sidebar-wrapper {
+      left: 250px;
+      margin-left: -250px;
+    }
+
+    #wrapper.toggled #sidebar-wrapper {
+      left: -200px;
+      margin-left: 0;
+    }
+
+    #page-content-wrapper {
+        padding: 20px;
+    }
+    
+    #wrapper.toggled #page-content-wrapper {
+        position: relative;
+        margin-right: 50px;
+    }
+}
+        </style>
+    
+       
+    </head>
+       <body>
+    <div id="wrapper">
+      <div id="sidebar-wrapper">
+        <nav class="sidebar">
+          <ul class="sidebar__toggled">  
+            <li><a href="" id="main-toggle" class="sidebar-toggle">Menu</a></li>
+             
+          </ul>
+        </nav>
+        <nav class="sidebar">  
+         
+        </nav>
+      </div>
+      
+  <div id="page-content-wrapper"> 
+
+    </div>
+       <script type="text/javascript" src="jquery.js"></script>
+
+       <script type="text/javascript" src="index.js"></script>
+    </body>
+    </html>
