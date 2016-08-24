@@ -1,10 +1,6 @@
 // Two methods for timers - setTimeout and SetInterval (single / repeating)
 
-function simpleMessage() {
-	alert("This is just an alert box");
-}
 
-// settimeout is in milliseconds
 
 var myImage = document.getElementById("mainImage");
 
@@ -21,4 +17,16 @@ function changeImage() {
 }
 
 // setInterval is also in milliseconds
-//setInterval(changeImage,5000);
+
+
+/*var intervalHandler = setInterval(changeImage,5000);
+
+myImage.onclick = function(){
+	clearInterval(intervalHandler);
+};*/
+
+var intervalHandle = setInterval(changeImage,5000);
+
+myImage.onclick =  function() {
+	clearInterval(intervalHandle);
+}

@@ -13,9 +13,10 @@ myImage.onclick= function(){
 }
 
 
-//top object which contains document	
+//top object which contains document.
+//window.onload will be written once per page	
 
-document.onload = function() {
+window.onload = function() {
 	// prep anything we need to
    prepareEventHandlers();
 };
