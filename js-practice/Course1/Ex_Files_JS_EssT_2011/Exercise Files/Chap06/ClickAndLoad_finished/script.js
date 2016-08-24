@@ -8,6 +8,7 @@ function prepareEventHandlers() {
 	var myImage = document.getElementById("mainImage");
 	myImage.onclick =  function() {
 		alert("You clicked the image");
+		console.log("test");
 	}
 }
 
