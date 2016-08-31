@@ -12,3 +12,11 @@ function preparePage() {
 window.onload =  function() {
 	preparePage();
 };
+
+//anything written by hypens in css will chnage to camelcase in javascript
+
+/* #example{
+	font-weight              myElement.style.fontWeight
+
+
+}*/

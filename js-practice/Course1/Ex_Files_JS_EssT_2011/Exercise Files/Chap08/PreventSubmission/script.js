@@ -20,3 +20,5 @@ window.onload =  function() {
 	prepareEventHandlers();
 };
 
+//checkbox property... checked and unchecked...//
+// checkboxes and readio buttons have onclick and onchange events//
