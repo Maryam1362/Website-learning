@@ -2,7 +2,8 @@
 document.getElementById("mainArticle").className = "highlight";
 
 // use jQuery - basic
-//jQuery("#mainArticle").addClass("highlight");
+
+jQuery("#mainArticle").addClass("highlight");
 
 // find all elements with a particular class
 //jQuery(".tourDescription").addClass("highlight");
