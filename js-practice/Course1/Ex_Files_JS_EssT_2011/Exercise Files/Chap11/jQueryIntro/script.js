@@ -1,9 +1,9 @@
 // basic
-document.getElementById("mainArticle").className = "highlight";
+//document.getElementById("mainArticle").className = "highlight";
 
 // use jQuery - basic
 
-jQuery("#mainArticle").addClass("highlight");
+//jQuery("#mainArticle").addClass("highlight");
 
 // find all elements with a particular class
 //jQuery(".tourDescription").addClass("highlight");
@@ -28,18 +28,18 @@ jQuery("#mainArticle").addClass("highlight");
 
 // simple click
 //$("#pageID").click(function() {
-//   $("#pageID").text("You clicked me!");
+  //$("#pageID").text("You clicked me!");
 //});
 
 // add $(this) to refer to current element
-//$("h2").click(function() {
-//   $(this).text("You clicked me!");
-//});
+$("h2").click(function() {
+   $(this).text("You clicked me!");
+});
 
 // add effects - this makes each paragraph fade out when clicked.
-//$("p").click(function() {
-//  $(this).fadeOut(2000);
-//});
+$("p").click(function() {
+  $(this).fadeOut(2000);
+});
 
 // Page load events - instead of window.onload()
 //$(document).ready(function () {
