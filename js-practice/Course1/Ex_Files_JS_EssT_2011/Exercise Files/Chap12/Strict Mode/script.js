@@ -1,5 +1,7 @@
 
+"use strict"
 // didn't use var
+
 foo = "Hello world";
 
 // new object with two properties with the same name
