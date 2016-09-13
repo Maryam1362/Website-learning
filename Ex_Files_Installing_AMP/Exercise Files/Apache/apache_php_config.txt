@@ -1,0 +1,3 @@
+LoadModule php5_module "C:/php/php5apache2_4.dll"
+AddHandler application/x-httpd-php .php
+PHPIniDir "c:/php"
